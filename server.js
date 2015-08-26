@@ -3,7 +3,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var port = 9879;
+var port = process.env.PORT || 3000;
 var mongoUri = "mongodb://localhost:27017/resume-site";
 
 var app = express();
