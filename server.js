@@ -3,9 +3,8 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
-var config = require('./config');
-var port = config.PORT;
-var mongoUri = config.MONGO_URI;
+var port = 9879;
+var mongoUri = "mongodb://localhost:27017/resume-site";
 
 var app = express();
 app.use(express.static(__dirname+'/public'));
