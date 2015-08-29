@@ -1,65 +1,350 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="andrewResume">
+<div class="modal fade bs-example-modal-lg" id="tuneMyPiano" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">x</button>
+                <h3>Tune My Piano</h3>
+            </div>
+            <div class="modal-body">
+                <div class="description center">
+                    <h4>TuneMyPiano is a lead generating website...</h4>
+                    <h4>...with an e-commerce aspect for authorized users.</h4>
+                </div>
+                <br>
+                <div>
+                    <p>It is designed to educate piano owners about care for their pianos and for them to request professional services.</p>
+                    <br>
+                    <div class="center">
+                    <img src="./public/img/portfolio/requestTech.jpg">
+                    </div>
+                    <br>
+                    <br>
+                    <p>Registered Piano Technicians are notified of requests generated for their service area and are able to purchase the leads once logged in.</p>
+                    <br>
+                    <br>
+                    <div class="center">
+                    <img src="./public/img/portfolio/claimTuning.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="http://www.utahpianotuning.com" target="_blank" class="btn btn-primary">Visit the Live Site!</a>
+         </div>
+    </div>
+  </div>
+</div>
 
-<head>
+<div class="modal fade" id="devKittens" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">x</button>
+                <h3>DevKittens</h3>
+            </div>
+            <div class="modal-body">
+                <div class="description center">
+                    <h4>DevKitten is an internal management</h4>
+                    <h4>software developed specifically for DevMountain...</h4>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <p>It is designed to allow different user types to create, read, update and/or delete the school's curriculum.</p>
+                    <br>
+                    <div class="center">
+                    <img src="./public/img/portfolio/devKittensRegistration.png">
+                    </div>
+                    <br>
+                    <p>It was developed to meet specific requests for our client (DevMoutain), which lead to our product being purchased and implemented by the client.</p>
+                    <br>
+                    <div class="center">
+                    <img src="./public/img/portfolio/devKittens.jpg">
+                    </div>
+                    <br>
+                    <p>DevKittens also serves as a customized calendar and scheduling app for its users.</p>
+                    <br>
+                    <div class="center">
+                    <img src="./public/img/portfolio/calendarView.jpg">
+                    </div>
+                    <br>
+                    <br>
+                    <p>It is the first student project to be implemented by DevMountain.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="http://www.devkitten.com" target="_blank" class="btn btn-primary">Visit the Live Site!</a>
+         </div>
+    </div>
+  </div>
+</div>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<div class="modal fade" id="email" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">x</button>
+            <h3>Thank You!</h3>
+        </div>
+        <div class="modal-body">
+            <div class="description center">
+                <h4>Thanks for reaching out!</h4>
+                <h4>I will be in touch with you soon.</h4>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
 
-    <title>Andrew Crane | Web Developer</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Andrew Crane | MEAN Stack Web Developer</a>
+        </div>
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about">Social</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Skills</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Resume</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>Andrew Crane</h1>
+            <h2>Full Stack JavaScript Web-Developer</h2>
+            <hr>
+            <h3>coding marathons are my jam</h3>
+            <br>
+            <h3>developing the ui/ux couldn't be more fun</h3>
+            <h3>solving backend problems couldn't be for satisfying</h3>
+            <br>
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+        </div>
+    </div>
+</header>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">FIND ME ONLINE!</h2>
+                <br>
+                <hr class="light">
+                <br>
+                <div class="flex-icons">
+                    <a href="https://linkedin.com/in/andrewmcrane" target="_blank" class="fa fa-linkedin-square fa-4x wow bounceIn" data-wow-delay=".2s"></a>
+                    <a href="https://github.com/andrewcrane152" target="_blank" class="fa fa-github fa-4x wow bounceIn" data-wow-delay=".2s"></a>
+                    <a href="https://instagram.com/cranium152" target="_blank" class="fa fa-instagram fa-4x wow bounceIn" data-wow-delay=".2s"></a>
+                    <a href="https://twitter.com/amc152" target="_blank" class="fa fa-twitter fa-4x wow bounceIn" data-wow-delay=".2s"></a>
+                    <a href="https://www.facebook.com/andrew.crane.12327" target="_blank" class="fa fa-facebook fa-4x wow bounceIn" data-wow-delay=".2s"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<div id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">SKILLS</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/html.png">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/css.png">
+                    <h3>css</h3>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/js.png">
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/bootstrap.png">
+                    <h3>bootstrap</h3>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/git.png">
+                    <h3>Github</h3>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/firebase.png">
+                    <h3>firebase</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/angularjs.png">
+                    <h3>AngularJS</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/nodejs.png">
+                    <h3>NodeJs</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img id="circle" src="./public/img/Logos/express.jpg">
+                    <h3>express</h3>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 text-center">
+                <div class="service-box">
+                    <img src="./public/img/Logos/mongodb.png">
+                    <h3>mongodb</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-</head>
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading black">PORTFOLIO PIECES</h2>
+                <hr class="primary">
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <a data-toggle="modal" data-target="#tuneMyPiano" class="portfolio-box">
+                    <img src="./public/img/portfolio/tuneMyPiano.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Personal Project
+                            </div>
+                            <div class="project-name">
+                                Tune My Piano
+                            </div>
+                            <br>
+                            <div class="project-category text-faded">
+                                Click for Details
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <a data-toggle="modal" data-target="#devKittens" class="portfolio-box">
+                    <img src="./public/img/portfolio/devKittens.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Group Project
+                            </div>
+                            <div class="project-name">
+                                DevKittens
+                            </div>
+                            <br>
+                            <div class="project-category text-faded">
+                                Click for Details
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-<body id="page-top">
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>Take a look at my resume!</h2>
+            <a href="app/views/resume.pdf" target="_blank" ><button class="btn btn-default btn-xl wow tada">Resume</button></a>
+        </div>
+    </div>
+</aside>
 
-    <ng-view></ng-view>
-
-    <!-- Angular -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
-    <!-- Angular-Route -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
-
-    <!-- jQuery -->
-    <script src="app/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="app/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="app/js/jquery.easing.min.js"></script>
-    <script src="app/js/jquery.fittext.js"></script>
-    <script src="app/js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="app/js/creative.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/controllers/mainCtrl.js"></script>
-    <script src="app/services/mainService.js"></script>
-
-</body>
-
-</html>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1 class="section-heading">Let's Get In Touch!</h1>
+                <hr class="primary">
+                <p>Congratulations, you made it to the bottom of the page!</p>
+                <p>Send me a text or shoot me an email to let me know you were here.</p>
+            </div>
+            <div class="col-lg-4 col-lg-offset-2 text-center">
+                <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                <p class="email-link">801.458.1656</p>
+            </div>
+            <div class="col-lg-4 text-center">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p class="email-link">AndrewCrane152@gmail.com</p>
+            </div>
+            <div class="form-group col-lg-4 col-md-4">
+                <label>First Name</label>
+                <input type="text" class="form-control" ng-model="firstName">
+            </div>
+            <div class="form-group col-lg-4 col-md-4">
+                <label>Last Name</label>
+                <input type="text" class="form-control" ng-model="lastName">
+            </div>
+            <div class="form-group col-lg-4 col-md-4">
+                <label>Your Email Address</label>
+                <input type="email" class="form-control" ng-model="fromEmail">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group col-lg-12">
+                <label>Subject</label>
+                <input class="form-control" ng-model="emailSubject">
+            </div>
+            <div class="form-group col-lg-12">
+                <label>Message</label>
+                <textarea class="form-control" rows="6" ng-model="message" placeholder=""></textarea>
+            </div>
+            <div class="form-group col-lg-12 center">
+                <input type="hidden" name="save" value="contact">
+                <button type="submit" class="btn btn-lg btn-default" data-toggle="modal" data-target="#email" ng-click="sendMeAnEmail(firstName, lastName, fromEmail, emailSubject, message)">Send It!</button>
+            </div>
+        </div>
+    </div>
+</section>
